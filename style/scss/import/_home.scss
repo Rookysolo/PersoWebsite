@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  font-family: $unbuntu;
+  color: $text;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+
+  & section h1 {
+    animation: jackInTheBox;
+    animation-duration: 0.75s;
+    font-size: 50px;
+    padding-bottom: 15px;
+  }
+
+  & section p {
+    animation: jackInTheBox;
+    animation-duration: 0.75s;
+  }
+
+  .aboutme {
+    background: $gold;
+    border-radius: 25px;
+    width: 150px;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    text-align: center;
+
+    &:hover {
+      color: $white;
+      background: $text;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+}
+
+section {
+
+  margin-bottom: 50px;
+  text-align: center;
+
+  h4 {
+    color: $gold;
+    margin: 50px 0px 30px 0px;
+    text-decoration: underline;
+  }
+
+  i {
+    color: $gold;
+    font-size: 72px;
+    margin: 10px auto 20px auto;
+  }
+
+}
+
+.about_me {
+  p {
+    text-align: justify;
+  }
+}
+
+.graduations {
+
+  p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  p:last-of-type {
+    font-style: italic;
+  }
+
+}
+
+.portfolio {
+  img {
+    width:450px;
+  }
+
+  p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 80px 0px 40px 0px;
+  }
+
+  span {
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  a {
+    background: $gold;
+    color: $text;
+    border-radius: 25px;
+    margin: 50px auto 0px auto;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+      background: $text;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+
+  .col-md-4 {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.testimonial {
+  background: $bg;
+  color: $white;
+  padding: 10px 15px 50px 15px;
+  margin-top: 100px;
+
+  & p {
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  & span {
+    font-style: normal;
+  }
+}
+
+.contact {
+  a {
+    color: $text;
+    text-decoration: none;
+
+    &:hover {
+      transition: 0.3s;
+      color: $gold;
+    }
+  }
+
+  & i {
+    font-size: 30px;
+    border: 1px solid $gold;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px 10px 20px 10px;
+    width: 50px;
+    height: 50px;
+
+    &:hover {
+      color: $white;
+      background: $text;
+      border-color: $text;
+      transition: 0.3s;
+    }
+  }
+
+  & p {
+    margin-top: 50px;
+  }
+}

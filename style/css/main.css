@@ -1,0 +1,156 @@
+/******************************************************
+* 01 - MAIN INITIALISATION
+*******************************************************/
+/******************************************************
+* 02 - QUERIES
+*******************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #FFFFFF;
+  font-family: "Ubuntu", sans-serif;
+  color: #211d12; }
+
+header {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center; }
+  header section h1 {
+    animation: jackInTheBox;
+    animation-duration: 0.75s;
+    font-size: 50px;
+    padding-bottom: 15px; }
+  header section p {
+    animation: jackInTheBox;
+    animation-duration: 0.75s; }
+  header .aboutme {
+    background: #cc9966;
+    border-radius: 25px;
+    width: 150px;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    text-align: center; }
+    header .aboutme:hover {
+      color: #FFFFFF;
+      background: #211d12;
+      cursor: pointer;
+      transition: 0.3s; }
+
+section {
+  margin-bottom: 50px;
+  text-align: center; }
+  section h4 {
+    color: #cc9966;
+    margin: 50px 0px 30px 0px;
+    text-decoration: underline; }
+  section i {
+    color: #cc9966;
+    font-size: 72px;
+    margin: 10px auto 20px auto; }
+
+.about_me p {
+  text-align: justify; }
+
+.graduations p:first-of-type {
+  font-weight: bold;
+  font-size: 1.2em; }
+.graduations p:last-of-type {
+  font-style: italic; }
+
+.portfolio img {
+  width: 450px; }
+.portfolio p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 80px 0px 40px 0px; }
+.portfolio span {
+  font-style: italic;
+  font-size: 0.8em;
+  font-weight: normal; }
+.portfolio a {
+  background: #cc9966;
+  color: #211d12;
+  border-radius: 25px;
+  margin: 50px auto 0px auto;
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  text-decoration: none; }
+  .portfolio a:hover {
+    color: #FFFFFF;
+    background: #211d12;
+    cursor: pointer;
+    transition: 0.3s; }
+.portfolio .col-md-4 {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.testimonial {
+  background: #1a1a1a;
+  color: #FFFFFF;
+  padding: 10px 15px 50px 15px;
+  margin-top: 100px; }
+  .testimonial p {
+    font-style: italic;
+    text-transform: uppercase; }
+  .testimonial span {
+    font-style: normal; }
+
+.contact a {
+  color: #211d12;
+  text-decoration: none; }
+  .contact a:hover {
+    transition: 0.3s;
+    color: #cc9966; }
+.contact i {
+  font-size: 30px;
+  border: 1px solid #cc9966;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 30px 10px 20px 10px;
+  width: 50px;
+  height: 50px; }
+  .contact i:hover {
+    color: #FFFFFF;
+    background: #211d12;
+    border-color: #211d12;
+    transition: 0.3s; }
+.contact p {
+  margin-top: 50px; }
+
+.navBar {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 0.5em 1em #bdc3c7;
+  z-index: 3; }
+  .navBar a {
+    color: #211d12;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 10px; }
+    .navBar a:hover {
+      color: #cc9966;
+      transition: 0.3s; }
+  .navBar ul li {
+    display: inline-block;
+    margin-top: 15px; }
+  .navBar ul:first-of-type {
+    float: left; }
+  .navBar ul:last-of-type {
+    float: right; }
+
+/*# sourceMappingURL=main.css.map */
