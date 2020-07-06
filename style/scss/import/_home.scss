@@ -8,6 +8,13 @@ body {
   background: $white;
   font-family: $unbuntu;
   color: $text;
+
+  strong {
+    background-color: $gold;
+    padding: 0px 5px 0px 5px;
+    color: $white;
+    font-style: italic;
+  }
 }
 
 header {

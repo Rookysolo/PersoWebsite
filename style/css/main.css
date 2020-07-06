@@ -13,6 +13,11 @@ body {
   background: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
   color: #211d12; }
+  body strong {
+    background-color: #cc9966;
+    padding: 0px 5px 0px 5px;
+    color: #FFFFFF;
+    font-style: italic; }
 
 header {
   height: 100vh;

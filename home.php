@@ -16,9 +16,9 @@
     <div class="row justify-content-md-center">
       <div class="col-md-10">
         <p>
-          J'ai découvert le développement web durant mes études à l'Institut de l'Internet et du Multimédia.<br>
-          Titulaire depuis 2018 d'un Mastère "Manager de la Communication Numérique", j'ai choisi de me spécialiser,
-          depuis 2016, de manière autodidacte dans le développement web full-stack, approfondi durant mes deux stages
+          J'ai découvert le <strong>développement web</strong> durant mes études à l'Institut de l'Internet et du Multimédia.<br>
+          Titulaire depuis 2018 d'un <strong>Mastère</strong> "Manager de la Communication Numérique", j'ai choisi de me spécialiser,
+          depuis 2016, de manière <strong>autodidacte</strong> dans le développement web <strong>full-stack</strong>, approfondi durant mes deux stages
           réalisés dans le cadre de mon cursus.<br>
           En plus d'être un métier riche en possibilités, développer constitue également un challenge et
           une opportunité d'apprentissage permanente !
