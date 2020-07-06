@@ -128,23 +128,25 @@ section {
 .contact p {
   margin-top: 50px; }
 
-.navBar {
-  background-color: rgba(255, 255, 255, 0.8);
+.navBar, .navBar-mobile {
   position: fixed;
   width: 100%;
-  height: 60px;
-  box-shadow: 0 0.5em 1em #bdc3c7;
-  z-index: 3; }
-  .navBar a {
+  height: 60px; }
+  .navBar a, .navBar-mobile a {
     color: #211d12;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0px 10px 0px 10px; }
-    .navBar a:hover {
+    .navBar a:hover, .navBar-mobile a:hover {
       color: #cc9966;
       transition: 0.3s; }
+
+.navBar {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0.5em 1em #bdc3c7;
+  z-index: 3; }
   .navBar ul li {
     display: inline-block;
     margin-top: 15px; }
@@ -152,5 +154,42 @@ section {
     float: left; }
   .navBar ul:last-of-type {
     float: right; }
+
+.navBar-mobile {
+  z-index: 2;
+  background-color: #FFFFFF; }
+  .navBar-mobile i {
+    float: right;
+    font-size: 28px;
+    margin: 16px 25px 0px 0px; }
+    .navBar-mobile i:hover {
+      color: #cc9966;
+      transition: 0.1s;
+      cursor: pointer; }
+  .navBar-mobile ul:first-of-type, .navBar-mobile ul:last-of-type {
+    background-color: #FFFFFF;
+    width: 200px;
+    padding: 20px 0px 20px 0px; }
+    .navBar-mobile ul:first-of-type li, .navBar-mobile ul:last-of-type li {
+      margin: 10px 0px 10px 15px;
+      list-style: none; }
+  .navBar-mobile ul:last-of-type {
+    margin-top: -30px; }
+  .navBar-mobile-shutdownLight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 240%;
+    background: black;
+    opacity: 0.6; }
+
+@media screen and (min-width: 768px) {
+  .navBar-mobile {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
