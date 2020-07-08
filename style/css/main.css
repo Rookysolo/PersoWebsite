@@ -156,9 +156,11 @@ section {
     display: inline-block;
     margin-top: 15px; }
   .navBar ul:first-of-type {
-    float: left; }
+    float: left;
+    margin-left: 30px; }
   .navBar ul:last-of-type {
-    float: right; }
+    float: right;
+    margin-right: 30px; }
 
 .navBar-mobile {
   z-index: 2;

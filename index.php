@@ -5,7 +5,7 @@
 <header>
   <section>
     <h1>Alexandre Cornil Orwat</h1>
-    <p>Développeur web full stack autodidacte</p>
+    <p data-i18n="header-text"></p>
     <p class="aboutme" onclick="myScroll('.about_me');">A propos de moi</p>
   </section>
 </header>
@@ -146,7 +146,7 @@
     <i class="fab fa-linkedin-in"></i>
   </a>
   <p>
-    Tous droits réservés @ Alexandre Cornil Orwat
+    2020, tous droits réservés @ Alexandre Cornil Orwat
   </p>
 </section>
 
