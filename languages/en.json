@@ -1,3 +1,23 @@
 {
-  "header-text": "Self-taught full-stack web developer"
+  "header-subtitle": "Self-taught full-stack web developer",
+  "header-button": "About me",
+  "about-title": "Who am I ?",
+  "about-text":  "I discovered <strong>web development</strong> during my studies at the Institute of Internet and Multimedia (Paris la Défense).<br> Holder since 2018 of a <strong>Masters</strong> 'Manager of Digital Communication', I chose to specialize, since 2016 and as <strong>self-taught</strong>, in <strong>full-stack</strong> web development, deepened during my two internships carried out as part of my course. In addition to being a domain rich in possibilities, web also presents a challenge and a permanent learning opportunity !",
+  "technos-title": "Technologies",
+  "technos-php-text": "My very first back-end web language. He transmitted to me the desire to deepen the background of the web world! It is also the language I have used over the course of various WordPress projects.",
+  "technos-javascript-text": "Real favorite since the beginning of my studies, Javascript and more particularly Jquery have never left me. I used it for each student project, from the smallest animation of the Mona Lisa to the student browser game !",
+  "technos-node-text": "Discovered during my first internship, NodeJS is my favorite, both for its flexibility of writing and for its performance. It is a great tool that allows the creation of full stack structures operating entirely via Javascript, from the site to the application.",
+  "graduations-title": "Diplomas",
+  "graduations-highschool": "Baccalaureate",
+  "grauations-highschool-subtext": "2013",
+  "graduations-iim": "Digital Communication Manager",
+  "portfolio-button": "Visit",
+  "testimonial-title": "Testimonial",
+  "testimonial-quote": "“Creative worker and involved in business problems, Alexandre carries out his missions with seriousness and professionalism.“",
+  "testimonial-author": "Alexandre Lefort, <span>CEO of YuCall</span>",
+  "contact-title": "Contact me",
+  "contact-rights": "2020, all rights reserved @ Alexandre Cornil Orwat",
+  "navbar-resume": "Resume",
+  "navbar-diplomas": "Diplomas",
+  "navbar-testimonial": "Testimonial"
 }

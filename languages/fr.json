@@ -1,3 +1,23 @@
 {
-  "header-text": "Développeur web full stack autodidacte"
+  "header-subtitle": "Développeur web full stack autodidacte",
+  "header-button": "A propos de moi",
+  "about-title": "Qui suis-je ?",
+  "about-text":  "J'ai découvert le <strong>développement web</strong> durant mes études à l'Institut de l'Internet et du Multimédia.<br> Titulaire depuis 2018 d'un <strong>Mastère</strong> 'Manager de la Communication Numérique', j'ai choisi de me spécialiser, depuis 2016, de manière <strong>autodidacte</strong> dans le développement web <strong>full-stack</strong>, approfondi durant mes deux stages réalisés dans le cadre de mon cursus.<br> En plus d'être un métier riche en possibilités,       développer constitue également un challenge et une opportunité d'apprentissage permanente !",
+  "technos-title": "Technologies",
+  "technos-php-text": "Mon tout premier langage web back-end. Il m'a transmis l'envie d'approfondir l'envers du décor du monde du web ! C'est également le langage que j'ai le plus utilisé au fil de différents projets WordPress.",
+  "technos-javascript-text": "Véritable coup de coeur depuis le début de mes études, Javascript et plus particlièrement Jquery ne m'ont plus jamais quitté. Je l'utilisais à chaque projet étudiant, de la plus petite animation d'images de la Joconde au jeu étudiant par navigateur !",
+  "technos-node-text": "Découvert durant mon premier stage, NodeJS est mon favori, à la fois pour sa souplesse d'écriture et pour ses performances. C'est un formidable outil qui permet la réalisation de structures full stack fonctionnant intégralement via Javascript, allant du site à l'application.",
+  "graduations-title": "Diplômes",
+  "graduations-highschool": "Baccalauréat",
+  "grauations-highschool-subtext": "2013, Mention Bien, Scientifique",
+  "graduations-iim": "Manager de la Communication Numérique",
+  "portfolio-button": "Visiter",
+  "testimonial-title": "Recommandations",
+  "testimonial-quote": "“Profil créatif travailleur et impliqué dans les problématiques de l'entreprise, Alexandre mène à bien ses missions avec sérieux et professionnalisme.“",
+  "testimonial-author": "Alexandre Lefort, <span>CEO de YuCall</span>",
+  "contact-title": "Me contacter",
+  "contact-rights": "2020, tous droits réservés @ Alexandre Cornil Orwat",
+  "navbar-resume": "Résumé",
+  "navbar-diplomas": "Diplômes",
+  "navbar-testimonial": "Recommandations"
 }

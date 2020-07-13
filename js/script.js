@@ -8,6 +8,11 @@ function myScroll(elem) {
 }
 
 //i18n
+function changeLanguage(language) {
+	$.i18n().locale = language;
+	$('html').i18n();
+}
+
 $.i18n( {
 	locale: 'fr'
 } );
